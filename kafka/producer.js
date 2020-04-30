@@ -2,17 +2,35 @@ const kafka = require('kafka-node');
 const config = require('./configure.js');
 
 const value = {
+    v: '3.3.18',
+    version: '1132',
+    session_id: '1588162083138_41648d70-109d-412b-9032-2179e78e1b11',
+    language_code: 'en',
+    country_code: 'nl',
+    timezone: 'Europe/Amsterdam',
+    device_id: '41648d70-109d-412b-9032-2179e78e1b11',
+    user_id: 212698505001102,
+    advertising_id: '41648D70-109D-412B-9032-2179E78E1B11',
+    app: 'com.picsart.studio',
+    platform: 'apple',
+    market: 'apple',
     event_type: 'video_music_action',
-    platform: 'ios',
-    deviceid: 'thisisuniquedevice',
+    timestamp: 1588162693455,
+    experiments: [
+    ],
     data: {
-        result_source: 'audiobyte',
-        music_id: 764127419408844200,
-        action: 'apply',
-        editor_sid: 'thisIssessionid',
-        targetPlatform: 'facebook'
-    },
-    timestamp: 1586270867431
+        editor_sid: 'ad04e025-4ebc-4545-b218-600c897baeca_1588162556241',
+        action: 'try',
+        overlay_session_id: 'ad04e025-4ebc-4545-b218-600c897baeca_1588162654258',
+        result_source: 'epidemic',
+        category: 'dance',
+        music_id: 'youre_the_only_reason',
+        music_title: 'you\'re the only reason',
+        music_duration: 177,
+        download_time: 1,
+        music_is_free: false,
+        is_subscribed: false
+    }
 };
 
 const event = {

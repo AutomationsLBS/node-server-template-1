@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = {
-    kafka_topic: 'topNews',
+    kafka_topic: 'homosapiens',
     kafka_server: 'localhost:9092'
 };
